@@ -1,0 +1,25 @@
+body {
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lightModeOn button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.darkModeOn {
+  background-color: black;
+  color: white;
+}
+
+.darkModeOn button {
+  background-color: aqua;
+  color: black;
+}
